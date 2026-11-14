@@ -48,11 +48,11 @@
     "url": "https://github.com/JCodesMore/ai-website-cloner-template.git"
   },
   "scripts": {
-    "build": "node init && next build",
+    "build": "next build",
     "check": "npm run lint && npm run typecheck && npm run build",
-    "dev": "node init && next dev",
+    "dev": "next dev",
     "lint": "eslint",
-    "start": "node init && next start",
+    "start": "next start",
     "typecheck": "tsc --noEmit"
   },
   "version": "0.3.1"
